@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="amidis" type="id" />
+    <item name="sameday" type="id" />
+    <item name="nextday" type="id" />
+    <item name="pickup" type="id" />
+    <item name="choose" type="id" />
+</resources>

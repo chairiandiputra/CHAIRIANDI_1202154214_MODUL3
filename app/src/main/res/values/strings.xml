@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">mobile3</string>
+    <string name="list_item">list item</string>
+    <string name="choose_a_item">choose a item</string>
+    <string name="ades">ades</string>
+    <string name="amidis">amidis</string>
+    <string name="aqua" />
+    <string name="chosen" />
+    <string name="same_day_messenger_service" />
+    <string name="next_day_ground_delivery" />
+    <string name="pick_up" />
+    <string name="nothing_clicked" />
+    <string name="cleo" />
+
+</resources>

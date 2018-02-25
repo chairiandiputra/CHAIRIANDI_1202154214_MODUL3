@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.justjava.MainActivity">
+
+        <ImageView
+            android:id="@+id/ades"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:padding="@dimen/padding_regular"
+            android:src="@drawable/ades" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/ades"
+            android:text="INI ADALAH MINUMAN ADES"/>
+
+        <ImageView
+            android:id="@+id/amidis"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:padding="@dimen/padding_regular"
+            android:src="@drawable/amidis" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/amidis"
+            android:text="INI ADALAH MINUMAN AMIDIS"/>
+        <ImageView
+            android:id="@+id/aqua"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/aqua" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/aqua"
+            android:text="INI ADALAH MINUMAN AQUA"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/cleo"
+            android:src="@drawable/cleo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/cleo"
+            android:text="INI ADALAH MINUMAN CLEO"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/club"
+            android:src="@drawable/club"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/club"
+            android:text="INI ADALAH MINUMAN CLUB"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/equil"
+            android:src="@drawable/equil"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/equil"
+            android:text="INI ADALAH MINUMAN EQUIL"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/evian"
+            android:src="@drawable/evian"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/evian"
+            android:text="INI ADALAH MINUMAN EVIAN"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/leminerale"
+            android:src="@drawable/leminerale"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/leminerale"
+            android:text="INI ADALAH MINUMAN LEMINERALE"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/nestle"
+            android:src="@drawable/nestle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/nestle"
+            android:text="INI ADALAH MINUMAN NESTLE"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/pritine"
+            android:src="@drawable/pristine"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/pritine"
+            android:text="INI ADALAH MINUMAN PRISTINE"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/vit"
+            android:src="@drawable/vit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_wide"
+            android:layout_toRightOf="@id/vit"
+            android:text="INI ADALAH MINUMAN VIT"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:onClick="Submitorder"
+            android:layout_height="wrap_content"
+            android:text="Order"/>
+
+
+    </LinearLayout>
+</ScrollView>
